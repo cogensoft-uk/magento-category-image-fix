@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <!-- Workaround for category image same issue https://github.com/magento/magento2/issues/25099 -->
+    <preference for="Magento\Catalog\Model\Category\Attribute\Backend\Image" type="Cogensoft\Catalog\Model\Category\Attribute\Backend\Image" />
+</config>
